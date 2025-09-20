@@ -5,6 +5,7 @@ public class DarkRoast extends Beverage{
         description = "Most Excellent Dark Roast";
     }
     public double cost(){
-        return 1.99 + super.cost();
+        // Remova a chamada a super.cost() e retorne apenas o valor base
+        return 1.99;
     }
 }
